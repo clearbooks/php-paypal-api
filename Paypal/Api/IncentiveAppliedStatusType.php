@@ -1,0 +1,12 @@
+<?php
+
+namespace Paypal\Api;
+
+class IncentiveAppliedStatusType
+{
+    const __default = 'INCENTIVEAPPLIEDSTATUSSUCCESS';
+    const INCENTIVEAPPLIEDSTATUSSUCCESS = 'INCENTIVE-APPLIED-STATUS-SUCCESS';
+    const INCENTIVEAPPLIEDSTATUSERROR = 'INCENTIVE-APPLIED-STATUS-ERROR';
+
+
+}
