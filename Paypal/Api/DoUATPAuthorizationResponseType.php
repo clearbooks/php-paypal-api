@@ -46,10 +46,9 @@ class DoUATPAuthorizationResponseType extends DoAuthorizationResponseType
      * @param UATPDetailsType $UATPDetails
      * @param string $AuthorizationCode
      * @param string $InvoiceID
-     * @param string $MsgSubID
      * @access public
      */
-    public function __construct($Timestamp, $Ack, $CorrelationID, $Errors, $Version, $Build, $any, $TransactionID, $Amount, $AuthorizationInfo, $MsgSubID, $UATPDetails, $AuthorizationCode, $InvoiceID, $MsgSubID)
+    public function __construct($Timestamp, $Ack, $CorrelationID, $Errors, $Version, $Build, $any, $TransactionID, $Amount, $AuthorizationInfo, $MsgSubID, $UATPDetails, $AuthorizationCode, $InvoiceID)
     {
       parent::__construct($Timestamp, $Ack, $CorrelationID, $Errors, $Version, $Build, $any, $TransactionID, $Amount, $AuthorizationInfo, $MsgSubID);
       $this->UATPDetails = $UATPDetails;
